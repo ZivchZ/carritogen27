@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carrito G27</title>
+    <link rel="stylesheet" href="./assets/styles/style.css">
+    <!-- Google Fonts - Oswald -->
+    <script src="https://kit.fontawesome.com/724aafd632.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+    <nav class="nav">
+        <img src="./assets/img/logo_nombre.png" alt="logo_nombre" class="nav__img">
+        <button class="nav__button--toggle"><i class="fa-solid fa-cart-shopping"></i></button>
+        <div class="nav__car__counter" id="car-counter">0</div>
+        <section class="nav__car" id="car">
+            <div id="car__list">
+
+            </div>
+            <div id="total-value" class="sum-values"></div>
+            <button class="empty__button" id="empty-car">Añadir al Carrito</button>
+        </section>
+    </nav>
+    <header class="header">
+        <div class="container">
+         <div class="box"></div>
+         <div class="box"></div>
+         <div class="box"></div>
+         <div class="box"></div>
+         <div class="box"></div>
+         <div class="box"></div>
+         <div class="box"></div>
+         <div class="box"></div>
+         <div class="box"></div>
+         <div class="box"></div>
+         <div class="header__content">
+             <img src="assets/img/logo_blanco.png" class="header__img" name="slider" alt="logo_blanco">
+         </div>
+         
+     
+     </header>
+    <main class="main">
+        <section class="main__section">
+            <h3 class="main__h3">Todos nuestros productos</h3>
+            <!-- Lista de productos -->
+            <div id="products-container" class="main__products products">
+
+            </div>
+        </section>
+        <!-- Modal -->
+        <section class="modal" id="modal-container">
+            <div class="close">
+                <ion-icon name="close-outline" class="modal__icon"></ion-icon>
+            </div>
+            <div id="modal-element" class="modal__view">
+
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <p class="footer__p">Hecho con ❤️ en Academlo</p>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script src="./assets/js/main.js"></script>
+</body>
+</html>
